@@ -9,7 +9,7 @@ export default function AboutScreen() {
   
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text>Hola {nombre}, {apellido}</Text>
+      <Text>Hola como estas? {nombre}, {apellido}</Text>
       <Button title="Volver" onPress={() => router.back()}></Button>
     </View>
   );
