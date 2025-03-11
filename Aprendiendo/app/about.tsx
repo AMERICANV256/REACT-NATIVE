@@ -3,13 +3,13 @@ import { View, Text, Button } from "react-native";
 
 export default function AboutScreen() {
 
-  const {nombre, apellido} = useLocalSearchParams();
+  const {nombre, apellido, caracteristica} = useLocalSearchParams();
 
   const router = useRouter();
   
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text>Hola {nombre}, {apellido}</Text>
+      <Text>Hola {nombre}, {apellido}, {caracteristica}</Text>
       <Button title="Volver" onPress={() => router.back()}></Button>
     </View>
   );
