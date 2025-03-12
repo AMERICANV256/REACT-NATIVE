@@ -17,13 +17,14 @@ const currenTheme = dark? darkTheme : lightTheme;
 const datos = {
   id: 1,
   nombre : "Matias",
-  apellido: "Pineda"
+  apellido: "Pineda",
+  caracteristica: "verga"
 }
 
   return (
     <ThemeProvider theme={currenTheme}>
     <Container style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <TitleText >Home Screen</TitleText>
+      <TitleText >Home pene</TitleText>
      
       <Button title="Go to About" onPress={() => router.push({
         pathname:"/about",
